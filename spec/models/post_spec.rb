@@ -8,7 +8,6 @@ RSpec.describe Post, type: :model do
   	end
 
 		it 'can be created' do	
-			byebug
   		expect(@post).to be_valid
   	end
 
