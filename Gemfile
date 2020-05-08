@@ -22,7 +22,7 @@ group :development, :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   gem 'webdrivers'
-  gem 'factory_bot', '~> 5.2'
+  gem 'factory_bot_rails', '~> 5.2'
 end
 
 group :development do
