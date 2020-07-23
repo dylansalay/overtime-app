@@ -10,4 +10,10 @@ FactoryBot.define do
     rationale { "Some Other Rationale" }
     user
   end
+
+  factory :post_from_other_user, class: :Post  do
+    date { Date.yesterday }
+    rationale { "Some Other Rationale" }
+    non_authorized_user
+  end
 end

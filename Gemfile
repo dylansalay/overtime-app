@@ -12,6 +12,7 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem "websocket-extensions", ">= 0.1.5"
+gem "rack", ">= 2.2.3"
 
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
