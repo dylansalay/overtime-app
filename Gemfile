@@ -7,7 +7,6 @@ gem "actionpack", ">= 5.2.4.3"
 gem "activestorage", ">= 5.2.4.3"
 gem "activesupport", ">= 5.2.4.3"
 gem 'pg', '>= 0.18', '< 2.0'
-gem "puma", ">= 3.12.6"
 gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -46,3 +45,4 @@ gem 'gritter', '~> 1.2'
 gem 'administrate', '~> 0.13.0'
 gem 'bourbon', '~> 7.0'
 gem 'pundit', '~> 2.1'
+gem 'puma', '~> 4.3', '>= 4.3.5'
